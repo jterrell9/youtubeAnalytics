@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -r ./target/
+rm src/main/java/Driver.java
+nano src/main/java/Driver.java

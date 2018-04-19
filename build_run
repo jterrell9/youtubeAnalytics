@@ -1,0 +1,4 @@
+#!/bin/bash
+mvn --file pom-file.xml clean
+mvn --file pom-file.xml package
+$SPARK_HOME/bin/spark-submit --class Driver ./target/youtubeAnalytics-0.0.1.jar
